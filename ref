@@ -1,0 +1,101 @@
+//games
+}else if(command == 'coin-flip'){
+    client.commands.get('coin-flip').execute(message, args);
+}else if(command == 'snake'){
+    client.commands.get('snake').execute(message, args);
+}else if(command == 'minesweeper'){
+    client.commands.get('minesweeper').execute(message, args);
+}else if(command == 'hangman'){
+    client.commands.get('hangman').execute(message, args);
+}else if(command == 'connect4'){
+    client.commands.get('connect4').execute(message, args);
+}else if(command == 'fast-type'){
+    client.commands.get('fast-type').execute(message, args);
+}else if (msg.content.toLowerCase() === '$snake') {
+    snakeGame.newGame(msg);
+}
+else if (msg.content.toLowerCase() === '$hangman') {
+    hangman.newGame(msg);
+}
+else if (msg.content.toLowerCase() === '$connect4') {
+    connect4.newGame(msg);
+}
+else if (msg.content.toLowerCase() === '$minesweeper') {
+    minesweeper.newGame(msg);
+}
+else if (msg.content.toLowerCase() === '$chess') {
+    chess.newGame(msg);
+        }
+    }else if (command == 'game-help'){
+    const embed = new Discord.MessageEmbed()
+    .setColor('#fc2eff')
+    .setTitle('Help - Games')
+    .setDescription("$chess - play chess\n$snake - plays snake\n$minesweeper - play minesweeper\n hangman - play hangman\n$coinflip - play heads or tails\nconnect4 - play connect4\fast-type");
+//mod    
+}else if(command == 'unmute'){
+    client.commands.get('unmute').execute(message, args);
+}else if(command == 'clear'){
+        client.commands.get('clear').execute(message, args);
+         }else if(command == 'unmute'){
+    client.commands.get('unmute').execute(message, args);
+    }else if(command == 'ban'){
+    client.commands.get('ban').execute(message, args);
+    }else if(command == 'kick'){
+        client.commands.get('kick').execute(message, args);
+    }else if(command == 'mute'){
+        client.commands.get('mute').execute(message, args);
+        }else if(command == 'unban'){
+    client.commands.get('unban').execute(message, args);
+}else if(command == 'unmute'){
+    client.commands.get('unmute').execute(message, args);
+    }else if(command == 'mod-help'){
+        const embed = new Discord.MessageEmbed()
+        .setColor('#fc2eff')
+        .setTitle('Help - Mod')
+        .setDescription("$mute - mutes user\n$temp-mute - temp mutes to use this command do $mute user time\n$ban - bans user\n$kick - kicks user\n$clear - clears amount of messages\n$unmute - unmutes member\n$unban.js");
+//music
+    }else if(command == 'play'){
+    client.commands.get('play').execute(message, args);
+}else if(command == 'leave'){
+    client.commands.get('leave').execute(message, args);
+}else if (command == 'help-miscellaneous'){
+    const embed = new Discord.MessageEmbed()
+    .setColor('#fc2eff')
+    .setTitle('Help - music')
+    .setDescription("$play - plays song\n$leave - leaves VC\n$queue - adds to queue");
+    //misc
+}else if(command == 'serverinfo'){
+    client.commands.get('serverinfo').execute(message, args);
+}else if(command == 'userinfo'){
+    client.commands.get('userinfo').execute(message, args);
+}else if(command == 'corona'){
+    client.commands.get('corona').execute(message, args);
+}else if(command == 'ping'){
+    client.commands.get('ping').execute(message, args);
+    })
+    if(command === 'ping'){
+    message.channel.send('pong');
+    }else if (command == 'youtube'){
+        message.channel.send('my creators youtube is https://www.youtube.com/channel/UCcKyaalVLOG2fsLE00hObwg')
+}else if (command == 'help-miscellaneous'){
+    const embed = new Discord.MessageEmbed()
+    .setColor('#fc2eff')
+    .setTitle('Help - miscellaneous')
+.setDescription("$youtube - gets youtube\n$ping - gets bots ping\n$userinfo - gets user info\n$serverinfo - gets server info\n$corona - gets info about covid-19\n$ping - gets server ping");
+}else if (command == 'help'){
+        const embed = new Discord.MessageEmbed()
+        .setColor('#fc2eff')
+        .setTitle('Help - Commands')
+        .setDescription("$mod-help - gets help for mod related things\n$game-help - gets help with game related things\n$help-misc - gets you help for miscellaneous things\$music-help - gets music related help");
+//help
+}else if (command == 'help'){
+    const embed = new Discord.MessageEmbed()
+    .setColor('#fc2eff')
+    .setTitle('Help - Commands')
+    .setDescription("$mod-help - gets help for mod related things\n$game-help - gets help with game related things\n$help-misc - gets you help for miscellaneous things\$music-help - gets music related help");
+
+]
+    //misc
+    //songs
+    //mod
+    //game
